@@ -1,0 +1,1 @@
+exports.url = 'mongodb+srv://seungjae:lbz04tap59@cluster0-isqny.azure.mongodb.net/final_project_fullstack2?retryWrites=true&w=majority'
