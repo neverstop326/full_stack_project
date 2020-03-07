@@ -41,7 +41,7 @@ function deleteItem(item) {
         throw new Error(err)
       } else {
         var _id = item._id;
-        console.log(`IO delete finished, using: ${item.title}`);
+        console.log(`IO delete finished, using: ${_id}`);
       }
     })
   })  

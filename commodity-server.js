@@ -39,7 +39,7 @@ function PostCommoditiesApi (req, res, next) {
 
 app.post('/api/commodities', PostCommoditiesApi)
 app.get('/', function(req, res) {
-    res.redirect('/commodities.html')
+    res.redirect('/index.html')
 })
 
 

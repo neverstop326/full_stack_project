@@ -38,12 +38,12 @@ $(document).ready(function () {
         for (commodity of data.commoditiesList) {
    
             var _id = commodity._id;
-            commodity_list.append(`<li id='li-${_id}'>${commodity.add_commodity}</li>`);
+            commodity_list.append(`<li id='li-${_id}'>${commodity.title}</li>`);
 
             var button = document.createElement('button');
             button.id = _id;
-            button.name = `${commodity.add_commodity}`;
-            button.value = `${commodity.add_commodity}`;
+            button.name = `${commodity.title}`;
+            button.value = `${commodity.title}`;
             button.addEventListener('click', deleteHandler);
             button.innerText = 'X';
 
